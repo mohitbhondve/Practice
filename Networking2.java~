@@ -1,0 +1,18 @@
+import java.io.*;
+import java.lang.*;
+import java.net.*;
+
+class Networking2
+{
+	public static void main(String args[])throws Exception
+	{
+		URL obj = new URL("http://facebook.com");
+
+		URLConnection con = obj.openConnection();
+
+		InetAddress iobj = InetAddress.getByName("www.facebook.com");
+
+		System.out.println("IP Addess is ="+iobj);
+	}
+
+}

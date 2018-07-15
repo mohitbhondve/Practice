@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.ArrayList;
+
+
+class ArrayList
+{
+	public static void main(String args[])
+	{
+		ArrayList<Integer> lst = new ArrayList<Integer>(2);
+		
+		
+		
+	}
+
+}
